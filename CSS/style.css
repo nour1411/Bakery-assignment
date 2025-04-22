@@ -1,0 +1,272 @@
+
+
+body{
+    margin: 0;
+}
+h2{
+    color: RGB(48, 48, 48);
+    font-family:"Alegreya", serif ;
+    font-weight: 400;
+    font-size: 32px;
+}
+p{
+ font-family: "Alegreya", serif;
+ font-size: 18px;
+ color: RGB(104, 104, 104);
+}
+h3{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+h4{
+    font-family: "Alegreya", serif;
+    font-size:22px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    
+}
+.clr{
+    clear: both;
+}
+.logo {
+    width: 200px; 
+    float:left ;
+    margin-left: 20px;
+    
+}
+.nav-link{
+    float:right ;
+    margin-right: 20px;
+    list-style: none;
+
+}
+.nav-link li{
+    display: inline;
+    margin-left:15px ;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    padding : 5px 10px;
+    font-family: "Alegreya", serif;
+}
+.nav-link a:hover{
+  color: #E0C673;
+}
+.section{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;  
+    color: white;
+    font-family: serif;
+    text-align: center;
+  
+}
+.section h1{
+    font-size: 75px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+.section p{
+    font-size:20px;
+    font-family: "Alegreya", serif;
+    color: white;
+ 
+}
+.section p,.section h1,.section button{
+    margin-bottom:30px;
+}
+.section button{
+    width: 150px;
+    height: 60px;
+    color: white;
+    border-radius: 15px;
+   margin-top: 10px;
+    
+}
+.section button:hover{
+    background-color: white;
+    color: black;
+   
+}
+.bg-transparent{
+    background-color: transparent;
+}
+.bg-coffee{
+    background-color:#BCA46C;;
+}
+.info{
+   width: 80% ;
+    margin: 50px auto;
+    overflow: hidden;
+
+}
+.info img{
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+}
+.info h2{
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+}
+.info p{
+    color: RGB(104, 104, 104);
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+    
+}
+
+div img {
+    width: 100%;
+}
+.our-location{
+    background-color: #F8F8F8;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.p-section {
+    padding-block: 80px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.line-height-30 {
+    line-height: 30px;
+}
+
+.icon-list {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* background-color: #00ACED; */
+    margin-bottom: 20px;
+}
+
+.icon-text {
+    width: 85%;
+    margin: 0px;
+    font-size: 15px;
+    padding: 8px;
+}
+.location{
+   
+    width:600px ;
+}
+
+.mr-2 {
+    margin-right: 2%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.test1 {
+    background-color: green;
+}
+
+.left-text,.right-image {
+    width: 45%;
+}
+.test{
+   text-align: center;
+}
+.test h3{
+ font-size: 30px;
+ 
+}
+.test h4{
+    font-size: 22px;
+   
+}
+.item{   
+    width: 30%;
+   
+}
+.item-center {
+    margin-inline: 5%;
+}
+.item p{
+   color: RGB(104, 104, 104);
+}
+.test .item img{
+  width:100% ;
+}
+.map-container{
+    background-color: #F8F8F8;
+}
+.contact-info{
+    margin-top: 20px;
+}
+.about{
+   background-color: #403D38; 
+}
+ .details{
+    width: 24%;
+    line-height: 30px ;
+
+}
+.details h4{
+    color: white;
+    
+}
+.details ul li ,.details p{
+    color: #909192;
+}
+
+.last{
+    text-align: center;
+   background-color:#353330;
+}
+.last p{
+ color:  #909192;
+}
+.last .w-300{
+   width: 300px;
+   height: auto;
+}
+.last img{
+    width: 50px;
+    border-radius: 50%;
+    display: inline;
+    margin: 10px;
+}
+.face:hover{
+  background-color: #3B5998;
+}
+.google:hover{
+  background-color: #DD4B39;
+}
+.twitter:hover{
+  background-color: #00ACED;
+}
+.linked:hover{
+  background-color: #007BB5;
+}
